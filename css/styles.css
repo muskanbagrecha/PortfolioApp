@@ -70,6 +70,7 @@ nav ul li a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
     border-radius: 15%;
     color: rgba(0, 35, 122, 0.7);
+    background-color: #BCE3E3;
 }
 
 img {
@@ -151,17 +152,23 @@ footer a:hover {
     text-decoration: underline;
 }
 
-.project-row {
+.project-row, .blogs-content {
     margin: 0 auto;
     padding: 0 20px 0 40px;
     text-align: left;
-}
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
 
+}
+.blogs-content{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 25px;
+}
 .projects .project-row h2 {
     font-size: 2em;
 }
 
-.project-row p {
+.project-row p, .blogs-content p {
     max-width: 800px;
 }
 
@@ -171,3 +178,51 @@ footer a:hover {
     float: right;
     border-radius: 50%;
 }
+
+.blog-btn {
+    border-radius: 8px;
+    background-color: #BCE3E3;
+    font-family: 'Montserrat', sans-serif;
+    color: #255858;
+    font-size: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-bottom: 100px;
+    border: 1px solid #A0D7D7;
+  }
+  
+  .blog-btn:hover {
+    background: #66BFBF;
+    text-decoration: none;
+  }
+  
+.blog-writeup{
+    /* font-family: 'Times New Roman', Times, serif; */
+    line-height: 30px;
+    max-width: 200px;
+    text-align: center;
+  }
+
+  .blog-writeup p{
+      max-width: 700px;
+      margin: 0 auto;
+      margin-bottom: 50px;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 1.2rem;
+
+  }
+
+  .blog-writeup h3{
+    margin: 20px;
+    font-size: 1.6rem;
+  }
+
+  .blog-writeup h4{
+      margin: 20px;
+      color: #357F7F;
+    font-size: 1.4rem;
+  }
+
+  small{
+      color: #357F7F;
+  }
