@@ -7,7 +7,7 @@ body {
     color: #40514E;
 }
 
-:root{
+:root {
     --primary-color: #66BFBF;
     --secondary-color: #A0D7D7;
 }
@@ -20,7 +20,7 @@ h1 {
 }
 
 #Muskan-main:hover {
-    color: var(--primary-color)  ;
+    color: var(--primary-color);
     text-shadow: 0 0 20px var(--primary-color);
 }
 
@@ -159,7 +159,8 @@ footer a:hover {
     text-decoration: underline;
 }
 
-.project-row, .blogs-content {
+.project-row,
+.blogs-content {
     margin: 0 auto;
     padding: 0 20px 0 40px;
     text-align: left;
@@ -167,15 +168,18 @@ footer a:hover {
     font-size: 1.2rem;
 
 }
-.blogs-content{
+
+.blogs-content {
     font-family: 'Times New Roman', Times, serif;
     line-height: 25px;
 }
+
 .projects .project-row h2 {
     font-size: 2em;
 }
 
-.project-row p, .blogs-content p {
+.project-row p,
+.blogs-content p {
     max-width: 800px;
 }
 
@@ -186,7 +190,9 @@ footer a:hover {
     border-radius: 50%;
 }
 
-.blog-btn, .project-btn {
+.blog-btn,
+.project-btn,
+.project-btn-sourcecode {
     border-radius: 8px;
     background-color: #BCE3E3;
     font-family: 'Montserrat', sans-serif;
@@ -196,49 +202,53 @@ footer a:hover {
     text-decoration: none;
     margin-bottom: 50px;
     border: 1px solid #A0D7D7;
-  }
-  
-  .blog-btn:hover, .project-btn:hover {
-    background:var(--primary-color);
+    margin-right: 30px;
+}
+
+.blog-btn:hover,
+.project-btn:hover,
+.project-btn-sourcecode:hover {
+    background: var(--primary-color);
     text-decoration: none;
-  }
-  
-.blog-writeup{
+}
+
+.blog-writeup {
     /* font-family: 'Times New Roman', Times, serif; */
     line-height: 30px;
     max-width: 200px;
     text-align: center;
-  }
+}
 
-  .blog-writeup p{
-      max-width: 700px;
-      margin: 0 auto;
-      margin-bottom: 50px;
-      font-family: 'Times New Roman', Times, serif;
-      font-size: 1.2rem;
+.blog-writeup p {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
 
-  }
+}
 
-  .blog-writeup h3{
+.blog-writeup h3 {
     margin: 20px;
     font-size: 1.6rem;
-  }
+}
 
-  .blog-writeup h4{
-      margin: 20px;
-      color: #357F7F;
+.blog-writeup h4 {
+    margin: 20px;
+    color: #357F7F;
     font-size: 1.4rem;
-  }
+}
 
-  small{
-      color: #357F7F;
-  }
+small {
+    color: #357F7F;
+}
 
-  nav .link-active{
+nav .link-active {
     font-weight: bold;
-    }
-footer{
+}
+
+footer {
     background-color: var(--secondary-color);
     /* border-bottom-left-radius: 20px; */
-    border-top-right-radius: 20px; 
+    border-top-right-radius: 20px;
 }
