@@ -5,6 +5,8 @@ body {
     text-align: center;
     font-family: 'Merriweather', serif;
     color: #40514E;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
@@ -267,4 +269,12 @@ text-decoration: none;
 
 footer a:hover{
 text-decoration: none;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+.project-btn-sourcecode{
+    background-color: white;
 }
