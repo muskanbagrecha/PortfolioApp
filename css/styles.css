@@ -278,3 +278,10 @@ h2{
 .project-btn-sourcecode{
     background-color: white;
 }
+
+#blog-portfolio{
+    display: block;
+    font-size: large;
+    text-align: left;
+    margin-left: 40px;
+}
