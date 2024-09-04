@@ -1,12 +1,5 @@
 export const projects = [
 	{
-		title: 'Fashgram Component Library',
-		description: 'A simple modern, and responsive framework for building components on the fly.',
-		technicalDetails: ['HTML', 'CSS'],
-		liveLink: 'https://fashgram-ui-documentation.netlify.app/',
-		sourceCodeLink: 'https://github.com/muskanbagrecha/CL-documentation',
-	},
-	{
 		title: 'Fashgram Store',
 		description: 'Fashgram Store is an ecommerce-store where users can shop for latest trends in fashion.',
 		technicalDetails: ['ReactJS', 'Mockbee (for mock backend)'],
@@ -21,18 +14,25 @@ export const projects = [
 		sourceCodeLink: 'https://github.com/muskanbagrecha/video-library-react',
 	},
 	{
-		title: 'Fashgram Quiz App',
-		description: 'Quiz with multiple categories and corresponding quizzes.',
-		technicalDetails: ['ReactJS', 'Mockbee (for mock backend)'],
-		liveLink: 'https://fashgram-quiz.netlify.app/',
-		sourceCodeLink: 'https://github.com/muskanbagrecha/quiz-react-app',
-	},
-	{
 		title: 'Fashgram Social Media',
 		description: 'Social media app to connect with your friends and family.',
 		technicalDetails: ['React with Typescript', 'Redux Toolkit', 'React Router V6', 'Firebase for backend', 'Tailwind CSS'],
 		liveLink: 'https://fashgram-media-react.netlify.app/',
 		sourceCodeLink: 'https://github.com/muskanbagrecha/social-media-react-app',
+	},
+	{
+		title: 'Fashgram Component Library',
+		description: 'A simple modern, and responsive framework for building components on the fly.',
+		technicalDetails: ['HTML', 'CSS'],
+		liveLink: 'https://fashgram-ui-documentation.netlify.app/',
+		sourceCodeLink: 'https://github.com/muskanbagrecha/CL-documentation',
+	},
+	{
+		title: 'Fashgram Quiz App',
+		description: 'Quiz with multiple categories and corresponding quizzes.',
+		technicalDetails: ['ReactJS', 'Mockbee (for mock backend)'],
+		liveLink: 'https://fashgram-quiz.netlify.app/',
+		sourceCodeLink: 'https://github.com/muskanbagrecha/quiz-react-app',
 	},
 	{
 		title: 'Geek Finder',
